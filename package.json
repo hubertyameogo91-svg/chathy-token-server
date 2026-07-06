@@ -1,0 +1,14 @@
+{
+  "name": "chathy-token-server",
+  "version": "1.0.0",
+  "description": "Serveur de génération de tokens Agora pour ChatHY",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "agora-access-token": "^2.0.4"
+  }
+}
